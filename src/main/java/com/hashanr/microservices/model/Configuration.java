@@ -1,4 +1,4 @@
-package com.hashanr.microservices;
+package com.hashanr.microservices.model;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

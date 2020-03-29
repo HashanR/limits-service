@@ -1,5 +1,8 @@
-package com.hashanr.microservices;
+package com.hashanr.microservices.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class LimitConfiguration {
 	
 	private int maximum;
