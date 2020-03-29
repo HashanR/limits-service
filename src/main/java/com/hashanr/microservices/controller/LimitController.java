@@ -10,7 +10,7 @@ import com.hashanr.microservices.model.LimitConfiguration;
 import com.hashanr.microservices.service.LimitService;
 
 @RestController
-@RequestMapping("/test")
+//@RequestMapping("/limits")
 public class LimitController {
 	
 	@Autowired
@@ -21,7 +21,7 @@ public class LimitController {
 		return limitService.retriveLimitsFromConfiguration();
 	}
 	
-	@GetMapping("/tests")
+	//@GetMapping("/tests")
 	public String test()
 	{
 		return "Hello World!";
